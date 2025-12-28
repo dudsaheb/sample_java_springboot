@@ -1,0 +1,50 @@
+
+
+# ===============================
+# Spring Boot MAIN runtime configs (BLOCK)
+# ===============================
+**/application*.yaml
+**/application*.yml
+**/application*.properties
+**/bootstrap*.yaml
+**/bootstrap*.yml
+**/bootstrap*.properties
+
+# ===============================
+# Secrets and credentials   
+# ===============================
+**/*.p12
+**/*.jks
+**/*.keystore
+**/*.truststore
+**/*.pem
+**/*.key
+**/*.crt
+**/secrets/**
+
+# ===============================
+# Environment specific
+# ===============================
+**/config/**
+
+# ===============================
+# IDE and build files
+# ===============================
+**/.idea/**
+**/.vscode/**
+**/target/**
+**/bin/**
+**/*.iml
+**/node_modules/**
+
+# ===============================
+# Logs
+# ===============================
+**/logs/**
+
+# ===============================
+# Local development
+# ===============================
+
+**/.env
+**/.env.*

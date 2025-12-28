@@ -1,10 +1,10 @@
-package com.shaik.order_service;
+package com.shaik.userservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OrderServiceApplicationTests {
+class UserServiceApplicationTests  {
 
 	@Test
 	void contextLoads() {
